@@ -1,10 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-<% 
-session.setAttribute("username", "Scott"); 
+<%
+	session.setAttribute("username", "Scott");
 %>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,8 +10,16 @@ session.setAttribute("username", "Scott");
 <title>Insert title here</title>
 </head>
 <body>
-
-	<h2><a href = "sessionView01.jsp">session View</a></h2>
-
+	<h2><a href="sessionView01.jsp">session View</a></h2>
+	
 </body>
 </html>
+
+
+
+
+
+
+
+
+

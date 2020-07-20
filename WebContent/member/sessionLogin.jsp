@@ -42,12 +42,18 @@
 <%
 	} else {
 %>
-	<script>
-		alert("아이디 또는 비밀번호를 확인해주세요");
-		history.go(-1);
-	</script>
+<script>
+	alert("아이디 또는 비밀번호를 확인해주세요");
+	history.go(-1);
+</script>
 <%
 	}
 %>
+
+
+
+
+
+
 
 
